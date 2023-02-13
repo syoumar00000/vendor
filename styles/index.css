@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+  }
+   @font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto-Bold.ttf");
+   }
+   body {
+    font-family: Roboto;
+    margin: 0;
+    padding: 30px;
+  }
+  .header::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+    
+  }
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar ul li {
+   display: inline;
+  }
+  
+  .navbar li :active {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+  }
+  .navbar {
+    flex: 70%;
+    padding: 20px;
+  }
+  .navbar a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+  }
+  .header {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .headerside {
+    flex: 15%;
+    padding: 20px;
+  }
+  .presentation {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left {
+    flex: 70%;
+    padding: 20px;
+  }
+   .right {
+    flex: 30%;
+    padding: 20px;
+  }
+   .fakeimg {
+    background-color: yellowgreen;
+     width: 100%; 
+    padding: 20px;
+  } 
+  .trending {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .trendingside {
+    flex: 30%;
+    padding: 20px;
+  }
+  .articles {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .articleleftside {
+    flex: 40%;
+    padding: 20px;
+  }
+  .articlerightside {
+    flex: 60%;
+    padding: 20px;
+  }
+  .bestsellers {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bestsellerside {
+    flex: 20%;
+    padding: 20px;
+  }
+  .podcasts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .podcastsleftside {
+    flex: 40%;
+    padding: 20px;
+  }
+  .podcastsrightside {
+    flex: 60%;
+    padding: 20px;
+  }
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  .buttonside {
+    flex: 60%;
+    padding: 20px;
+    justify-content: center;
+    
+  } 
+  .buttonemptyside {
+    flex: 20%;
+    padding: 20px;
+    
+  } 
+  .buttonside button {
+    justify-content: center;
+  }
+  .contacts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contactaddress {
+    flex: 50%;
+    padding: 20px;
+  }
+  .contactaddressside {
+    flex: 33.33;
+  }
+  .contactaddressnavs{
+    display: flex;
+    padding: 10px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    margin-top: 10px;
+  }
+  .by {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .byside {
+    flex: 25%;
+    padding: 10px;
+  }
+  
