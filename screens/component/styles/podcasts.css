@@ -1,0 +1,147 @@
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.info .datetime {
+   
+    justify-content: flex-start;
+    color: #bbb;
+}
+.info .auth {
+    
+    justify-content: flex-end;
+    align-items: baseline;
+    color: #bbb;
+    padding-right: 20px;
+    
+}
+.info h1 {
+    font-size: 60px;
+}
+
+.listen {
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.toppart .middlepart .bottompart {
+    align-items: center;
+    justify-content: center;
+}
+.toppart {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 100%;
+    padding-top : 30px;
+    padding-left : 30px;
+    padding-right : 30px;
+    
+}
+
+.fpart {
+    flex: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}  
+.fpart .part {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.spart {
+    flex: 30%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+.part {
+    flex: 17.5%;
+    padding-right: 5px; 
+    position: relative;
+}
+.part strong {
+    margin-left: -21px;
+    margin-top: 7px;
+    position: absolute;
+    font-size: 13px;
+}
+.middlepart {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    padding : 30px;
+}
+.bottompart {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    padding : 30px;
+}
+
+.podcaststext {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.podleft {
+    flex: 25%;
+    align-items: flex-end;
+    justify-content: flex-end;
+} 
+.imgpod {
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-left: 60px;
+}
+.imgpod img {
+    margin-left: 10px;
+}
+.podleft p{
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left: 125px;
+    font-size: 22px;
+    padding-top: 10px;
+    font-weight: normal;
+    color: #646363;
+}
+.podtrait {
+    flex: 5%;
+    height: 200px;
+    border-left: 2px solid #BBB;
+    padding-left: 40px;
+    padding: 20px;
+  }
+  .podtrait .verticale-line {
+    margin-top: 20px;
+     
+  }
+  .imgpod {
+    flex: 5%;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+.podright {
+    flex: 70%;
+}
+.trendingside p {
+    font-size: 25px;
+    font-weight: bold;
+}
